@@ -1,0 +1,334 @@
+/****All******/
+
+@media(min-whidth:1200px)
+{.container, .container-lg,
+    .container-md,.container-sm,
+    .container-xl{
+
+        max-width: 960px;
+    }
+
+}
+.color{
+    color: #9C1616;
+}
+.space-section{
+    margin-top: 5rem;
+}
+
+/****styel TopBar******/
+.a-top:hover{
+    color:#b3afaf;
+
+}
+.a-top{
+    color: #8d8d8d;
+    text-decoration: none;
+}
+.li-top{
+    border-left: 1px solid #f3e9e9;
+    line-height: 29px;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.top{
+    border-bottom: 1px solid  #f3e9e9;
+    border-right: 1px solid #f3e9e9;
+
+}
+.icons{
+    width: 13px;
+    text-align: center;
+    color: #4e4e4e;
+
+}
+.text-right{
+    text-align: right;
+}
+/****NavBar******/
+#navbar{
+    border-bottom: 1px solid #f2f2f2 ;
+}
+.logo{
+    font-family: 'Kaushan Script', cursive;
+    color: #9C1616;
+    font-size: 31px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    background-color:#9C1616 ;
+    color: white;
+    font-size: 16px;
+    padding:16px 7px !important;
+    border-bottom: 4px solid #9C1616;
+     
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link:hover{
+    background-color: #9C1616;
+    color: white;
+    font-size: 16px;
+    padding: 17px 12px !important
+}
+.nav-link:focus, .nav-link:hover{
+    background-color: #9C1616;
+    color: white;
+    font-size: 16px;
+    padding: 17px 12px !important
+}
+
+.a-item{
+    font-size: 17px;
+    padding: 17px 12px !important;
+    color: #6b6b6b;
+    font-weight: 500;
+}
+
+/*** Section1****/
+
+#section1{
+    background-image: url("./bg/bg-1.jpg");
+    background-size: 100%;
+    background-position: center center;
+
+}
+.bg-blac{
+    background-color: #000000b0;
+    padding: 11% 0 10% 0;
+    color:white;
+    text-align: center;
+}
+.title-bloc1{
+    font-size: 25px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-weight: 700;
+}
+.p-bloc1{
+    font-size: 25px;
+    padding: 0 20%;
+    letter-spacing: 3px;
+    margin: 39px 0;
+    line-height: 23px;
+
+}
+.btn1-bloc{
+    background-color:#9C1616 ;
+    color:white;
+    padding: 12px 22px ;
+    border-color: white;
+}
+/*** Section2****/
+.ul_about{
+    list-style: none;
+    padding: 0;
+}
+.cheek{
+     border: 1px  solid black;
+     background-color:#3a3a3a ;
+     color: white;
+     font-size: 13px;
+     margin-right: 13px;
+}
+.img-section{
+    position: relative;
+}
+.text_img{
+   position: absolute;
+   background-color: white;
+   bottom: 5%;
+   left:0;
+   padding: 11px;
+   margin:0 20px;
+   font-size: 15px;
+   color: gray;
+}
+/*** Section3****/
+#section3{
+    background: url("bg/bg-2.jpg");
+    background-size: cover;
+    background-position: 50% 94%;
+    background-attachment: fixed;
+
+}
+.p-bg3  {
+    padding: 4% 0 4% 0 !important;
+}
+.p-section3{
+font-size: 27px;
+font-weight: 300;
+letter-spacing: 2px;
+line-height: 33px;
+}
+/*** Section5****/
+
+#portfolio{
+    background-color: #f2fffc;
+}
+#portfolio li{
+    width: 30%;
+}
+.style-gallery{
+   display: inline-flex;
+   list-style: none;
+   margin: 0;
+}
+/****************** Section6*****************/
+.icon_service{
+    border:1px solid black;
+    padding: 13px;
+    font-size: 28px;
+    border-radius: 50%;
+
+}
+.bg-icons:hover i{
+    color: white ;
+    background-color: #9C1616;
+    border:1px solid #fff;
+
+}
+.p-service{
+    color: gray;
+    font-size: 13px;
+}
+/****************** Section7*****************/
+#section7{
+    background-image: url("bg/bg-3.jpg");
+    background-size: cover;
+    background-position: inherit;
+}
+.margin-p{
+    margin: 0px 25%;
+    line-height: 21px;
+
+}
+.title-s7{
+    font-size: 13px;
+    font-weight: bold;
+}
+.title2-s7{
+     font-size: 13px;
+}
+.p-bg{
+    padding: 4% 0 3% 0;
+}
+/****************** Section8*****************/
+.list-client{
+    list-style: none;
+    display: flex;
+    margin: 90px 113px;
+}
+.img-border{
+    border:0.5px solid #dfd9df;
+    padding: 3% 0;
+    margin: 0 2px 0 0;
+}
+/****************** footer*****************/
+.footer-list{
+    list-style: none;
+}
+footer{
+    background-color: #222222;
+    color: #999;
+    padding: 88px 0 40px 0 ;
+    border-bottom: 1px solid #0c0b0b;
+
+}
+.link{
+    color: #999 !important;
+    text-decoration: none;
+
+}
+.btn-footer{
+    border: 1px  solid #b50e0e;
+    background-color: #9C1616;
+    color: white;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 5px;
+
+}
+/******************  copyright *****************/
+#copyright{
+    color: #7f7f7f;
+    background-color: #1d1d1d;
+    border-top: 1px solid #5f5f5f;
+    padding: 11px 0 0 0;
+}
+.list_copyright{
+    list-style: none;
+    display: flex;
+    float: right;
+
+}
+.title-copy{
+    text-decoration: none;
+    color: #7f7f7f;
+    margin: 0 10px 0 0;
+}
+/************ *****************/
+/************ PAGE Services  *****************/
+/************ *****************/
+/************section1 services  *****************/
+#section1-services{
+    background-image: url("bg/bg-6.jpg");
+    padding: 47px 0;
+    color: white;
+    background-position: top ;
+    margin-top: 60px;
+    
+}
+/************section3 services  *****************/
+#section3-services{
+background-image: url("bg/bg-5.jpg");
+background-size: cover;
+padding: 60px 0;
+margin-top: 5rem;
+}
+
+.file-project{
+
+    background-color: white;
+    padding: 0 20px 20px 20px ;
+    text-align: center;
+    margin-bottom:60px ;
+}
+.icon-file{
+    font-size:40px ;
+    color:white;
+    background-color: #47b747;
+    padding: 30px;
+    margin-bottom:  10px;
+}
+/************section4 services  *****************/
+
+.icon-card-s{
+    font-size: 44px;
+    border:1px solid white;
+    border-radius: 50%;
+    padding: 25px;
+    background-color: #47b747;
+    color: white;
+
+}
+.bg-green{
+    background-color: #47b747;
+   
+    
+}
+.btn-card{
+    background-color: #9C1616;
+    border-color:  #9C1616;
+    color:white;
+    padding: 8px 7px;
+    margin:15px 0;
+}
+/************section5 services  *****************/
+#section5-services{
+    background-image: url("bg/bg-4.jpg");
+    background-size: cover;
+    background-position: inherit;
+}
+.service-back{
+    padding: 11%  0 10% 0;
+    color:white;
+    text-align: center;
+}
